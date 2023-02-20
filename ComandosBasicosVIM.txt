@@ -1,12 +1,54 @@
-ls - lista de directorios 
-pwd - directorio actual
-cd - navegar en archivos 
-greep - permitir buscar  texto 
-whoami  - ver el nombre del usuario 
-root - raiz
-qa! - para salir
-:wq para guardar algo 
-rm - para eliminar 
-cp - copiar archivos 
-mv - para mover 
-
+Comandos basicos vim
+q! -> Salir del documento sin guardar cambios. Si hay cambios que no se han guardado no se ejecutará el comando y recibiremos un advertencia.
+:wqa! -> Guardar los cambios y salir en todos los ficheros/buffers que tenemos abiertos.
+sudo -> super usuario
+ls ->	Lista y numera todos los buffers/ficheros que tenemos abiertos.
+bn ->	Ir al siguiente fichero/buffer que tenemos abierto. (Buffer_next).
+bp ->	Ir al fichero/buffer anterior que tenemos abierto. (Buffer_previous)
+bl ->	Para ver en pantalla el último buffer abierto.
+bf ->	Mostrar en pantalla el primer buffer abierto.
+b_número_buffer ->	Si anteriormente hemos listado los buffer vemos que tienen asociado un número. Para cambiar de buffer podemos ejecutar el comando :b seguido del número de buffer. Por ejemplo :b2
+bd -> Cerrar únicamente el fichero/buffer actual que estamos editando.
+bd2 -> El comando :bd2 cierra el buffer 2.
+bd -> deuda.py	El comando :bd deuda.py cierra el buffer deuda.py.
+ba -> Mostrar todos los buffer en pantalla.
+yy -> Para copiar una línea entera.
+2yy -> Copiar 2 líneas a partir de donde tenemos el cursor.
+y$ -> Copiar desde donde tenemos posicionado el cursor hasta el final de la línea.
+yw -> Copiar la palabra a partir desde donde tenemos posicionado el cursor hasta el final de la palabra.
+yiw -> Copiar la palabra actual.
+:10,20y	-> Copiar de la línea 10 a la línea 20.
+120y -> Copiar la línea 120.
+dd -> Para cortar una línea entera.
+2dd -> Cortar 2 líneas a partir de donde tenemos el cursor.
+d$ o D -> Cortar desde donde tenemos posicionado el cursor hasta el final de la línea.
+dw -> Cortar la palabra desde donde tenemos posicionado el cursor hasta el final de la palabra.
+diw -> Cortar la palabra actual.
+x -> Cortar una carácter.
+p -> Pegar una línea en la línea después de donde tenemos el cursor.
+:129put -> Pegar una línea o conjunto de líneas que tenemos en el portapapeles a la línea 129 del documento.
+shift + p -> Pegar una línea en la línea antes de donde tenemos el cursor.
+ls -> lista de directorios 
+pwd -> ver directorio actual
+cd -> navegar por archivos y directorios 
+grep -> permitir buscar cadenas de texto
+uname -> muestra informacion util del sistema
+whoami -> ver el nombre del usuario actual 
+sudo rm -r (nombre de carpeta) -> borrar carpeta 
+qa! -> para salir de la edicion txt
+lsusb -> numera dispositivos usb 
+sudo cat (nombre de archivo) -> se usa para leer archivos 
+sudo mkdir (nombre de la carpeta) -> crear una carpeta 
+:wq - para guardar alguna edicion 
+alias -> permite definir alias temporales en tu sesion de shell
+unalias -> emiminar un alias 
+cd -> carpeta de inicio
+cd . . -> sube un nivel
+cd - ->volver al directorio actual 
+cp -> copiar archivos a carpetas 
+rm -> eliminar archivos 
+mv -> para mover archivos y directorios 
+rm -r -> eliminar un directorio vacio 
+rm -rf -> eliminar un directorio con contenido en su interior
+man -> muestra la pagina del manual 
+ 
