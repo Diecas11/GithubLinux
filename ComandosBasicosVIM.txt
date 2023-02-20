@@ -1,0 +1,12 @@
+ls - lista de directorios 
+pwd - directorio actual
+cd - navegar en archivos 
+greep - permitir buscar  texto 
+whoami  - ver el nombre del usuario 
+root - raiz
+qa! - para salir
+:wq para guardar algo 
+rm - para eliminar 
+cp - copiar archivos 
+mv - para mover 
+
